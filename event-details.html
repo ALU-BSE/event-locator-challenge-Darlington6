@@ -14,20 +14,35 @@
 <body>
     <!-- Page header with navigation bar -->
     <header>
-    <!-- Responsive Bootstrap navbar with custom styles and horizontal padding -->
-    <nav class="navbar navbar-expand-lg custom-navbar px-4" role="navigation">
-      <div class="container-fluid">
-        <a class="navbar-brand text-white" href="index.html">Event Locator</a>
-      </div>
-    </nav>
-  </header>
+        <!-- Bootstrap navbar with padding and custom styling -->
+        <nav class="navbar navbar-expand-lg custom-navbar px-5 fixed-top" role="navigation">
+            <div class="container-fluid"> <!-- Fluid container for full-width responsiveness -->
+                <a class="navbar-brand text-white fw-bold" href="index.html">Event Locator</a>
+                <!-- Toggler button for collapsing navbar on smaller screens -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!-- Icon representing the collapsed menu -->
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="events.html">Event List</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
   <!-- Main content area -->
   <main class="container py-5" role="main">
     <!-- Event detail section, dynamically updated and accessible via screen readers -->
     <section id="eventDetail" aria-live="polite"></section>
   </main>
   <!-- Custom JS -->
-  <script src="./js/data.js"></script>
   <script src="./js/details.js"></script>
 </body>
 </html>
