@@ -34,6 +34,38 @@
         </div>
         </nav>
     </header>
+
+    <main role="main">
+        <!-- Search section with padding and white background -->
+        <section class="py-5 bg-white" aria-label="Search for Events">
+        <div class="container text-center"> <!-- Responsive container with centered content -->
+            <h1 class="mb-4">Discover What's Happening Near You</h1>
+            <form id="searchForm" action="events.html" method="GET" class="row g-3 justify-content-center" role="search">
+            <div class="col-md-4">
+                <input type="text" name="query" class="form-control" placeholder="Search by city or event name" aria-label="Search by city or event name" required />
+            </div>
+            <!-- Date filter input -->
+            <div class="col-md-3">
+                <input type="date" name="date" class="form-control" aria-label="Filter by date" />
+            </div>
+            <!-- Category dropdown filter -->
+            <div class="col-md-3">
+                <select name="category" class="form-select" aria-label="Filter by category">
+                <option value="">All Categories</option>
+                <option value="music">Music</option>
+                <option value="sports">Sports</option>
+                <option value="tech">Tech</option>
+                <option value="food">Food</option>
+                </select>
+            </div>
+            <!-- Submit button styled to fill its column -->
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary w-100" aria-label="Search Events">Find Events</button>
+            </div>
+            </form>
+        </div>
+        </section>
+    </main>
     <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
