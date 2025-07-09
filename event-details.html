@@ -12,6 +12,19 @@
      <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+    <!-- Page header with navigation bar -->
+    <header>
+    <!-- Responsive Bootstrap navbar with custom styles and horizontal padding -->
+    <nav class="navbar navbar-expand-lg custom-navbar px-4" role="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">Event Locator</a>
+      </div>
+    </nav>
+  </header>
+  <!-- Main content area -->
+  <main class="container py-5" role="main">
+    <!-- Event detail section, dynamically updated and accessible via screen readers -->
+    <section id="eventDetail" aria-live="polite"></section>
+  </main>
 </body>
 </html>
