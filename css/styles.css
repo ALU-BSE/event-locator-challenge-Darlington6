@@ -1,1 +1,80 @@
 /* Custom Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.custom-navbar {
+  background-color: #003366;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+}
+
+/* Override Bootstrap’s default icon */
+.navbar-toggler-icon {
+  background-image: none;
+  width: 30px;
+  height: 3px;
+  background-color: #2ecc71;
+  display: block;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: #1a73e8;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+/* Style the dropdown collapse container */
+.navbar-collapse {
+  width: 50vw; /* Half of the screen width */
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 60px;
+  padding: 20px;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+/* Target nav links inside the dropdown only */
+.navbar-collapse.show .nav-link {
+  color: black;
+}
+
+/* Override hover state */
+.navbar-collapse.show .nav-link:hover {
+  color: #0c48aa;
+}
+
+/* Prevent layout shift on larger screens */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    position: static;
+    width: auto;
+    box-shadow: none;
+    background-color: transparent;
+  }
+}
+
+.card {
+  border-radius: 10px;
+}
