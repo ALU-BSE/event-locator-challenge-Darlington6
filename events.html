@@ -12,7 +12,20 @@
      <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    
+    <!-- Page header with navigation bar -->
+    <header>
+        <!-- Bootstrap navbar with custom styling and horizontal padding -->
+        <nav class="navbar navbar-expand-lg custom-navbar px-5 fixed-top" role="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html">Event Locator</a>
+        </div>
+        </nav>
+    </header>
+
+    <main class="container py-5" role="main">
+        <h2 class="text-center mb-4">Events Matching Your Search</h2>
+        <section id="eventList" class="row g-4" aria-live="polite"></section>
+    </main>
     <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
