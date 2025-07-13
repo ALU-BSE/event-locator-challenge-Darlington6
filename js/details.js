@@ -20,7 +20,10 @@ fetch("data/events.json")
             <p><strong>Location:</strong> ${event.location}</p>
             <p><strong>Category:</strong> ${event.category}</p>
             <p class="mt-3">${event.details}</p>
-            <a href="events.html" class="btn btn-secondary mt-3">Back to Events</a>
+            <div class="d-flex justify-content-between mt-4">
+              <a href="index.html" class="btn btn-outline-primary mt-3">Go Back Home</a>
+              <a href="events.html" class="btn btn-secondary mt-3">Go to Events</a>
+            </div>
           </div>
         </article>`;
     }
