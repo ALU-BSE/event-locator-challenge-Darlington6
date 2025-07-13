@@ -7,19 +7,19 @@ Event Locator is a lightweight, mobile-friendly web app that helps users discove
 ## Preview
 
 1. Homeage
-- ![Homepage](./screenshots/homepage.png)
+ ![Homepage](./screenshots/homepage.png)
 
 2. Event List - All
-- ![Event List - All](./screenshots/event-list-all.png)
+ ![Event List - All](./screenshots/event-list-all.png)
 
 3. Filtered Events (using "Tech" as the keyword)
-- ![Filtered Events using "Tech" keyword](./screenshots/filtered-events.png)
+ ![Filtered Events using "Tech" keyword](./screenshots/filtered-events.png)
 
 4. Search criteria not matching any event(s)
-- ![Search criteria not matching any event(s)](./screenshots/no-match.png)
+ ![Search criteria not matching any event(s)](./screenshots/no-match.png)
 
 5. Details of a select event
-- ![Details of a select event](./screenshots/event-details.png)
+ ![Details of a select event](./screenshots/event-details.png)
 
 ---
 
@@ -73,7 +73,7 @@ event-locator-challenge-Darlington6/
    ```bash
    git clone https://github.com/ALU-BSE/event-locator-challenge-Darlington6.git
 
-   cd event-locator
+   cd event-locator-challenge-Darlington6
    ```
 2. Open `index.html` in your browser.
 
