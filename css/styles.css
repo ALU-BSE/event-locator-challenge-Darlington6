@@ -6,9 +6,12 @@ body {
   font-family: "Segoe UI", sans-serif;
 }
 
+main {
+  padding-top: 80px; /* Add some spacing to the top */
+}
+
 .custom-navbar {
   background-color: #092c50;
-  /* background-color: rgb(0, 0, 60); */
 }
 
 .custom-navbar .nav-link {

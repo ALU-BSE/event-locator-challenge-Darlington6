@@ -4,7 +4,7 @@
     "name": "Accra Music Fiesta",
     "date": "2025-08-18",
     "location": "Accra, Ghana",
-    "category": "music",
+    "category": "Music",
     "description": "Discover innovative music trends shaping Africa’s entertainment landscape.",
     "details": "Explore a weekend full of engaging conversations, cultural showcase, and performances."
   },
@@ -13,7 +13,7 @@
     "name": "Tech Innovators Summit",
     "date": "2025-07-27",
     "location": "Lagos, Nigeria",
-    "category": "tech",
+    "category": "Tech",
     "description": "Discover innovative tech ideas shaping Africa’s future.",
     "details": "This event offers something for everyone — whether pros or beginners in tech. Come, explore, and connect!"
   },
@@ -22,7 +22,7 @@
     "name": "Gastronome Food Fair",
     "date": "2025-07-24",
     "location": "Abidjan, Côte d'Ivoire",
-    "category": "food",
+    "category": "Food",
     "description": "A celebration of local and international cuisine.",
     "details": "Explore a day full of savory, connection, and adventure, all while exploring the uniqueness of dishes on the African continent."
   },
@@ -31,7 +31,7 @@
     "name": "Addis Jazz Jam",
     "date": "2025-07-22",
     "location": "Addis Ababa, Ethiopia",
-    "category": "music",
+    "category": "Music",
     "description": "A celebration of local and international talent.",
     "details": "Network with passionate individuals and learn from inspiring voices in the music space."
   },
@@ -40,7 +40,7 @@
     "name": "Lagos Fashion Expo",
     "date": "2025-07-26",
     "location": "Lagos, Nigeria",
-    "category": "fashion",
+    "category": "Fashion",
     "description": "Discover fantastic fashion from all across Africa.",
     "details": "Delight in a feast rooted in the sense of African fashion, where every culture and dress is celebrated."
   },
@@ -49,7 +49,7 @@
     "name": "Youth Hackathon Africa",
     "date": "2025-08-15",
     "location": "Johannesburg, South Africa",
-    "category": "tech",
+    "category": "Tech",
     "description": "An innovation-driven hackathon empowering young developers to tackle Africa's tech challenges.",
     "details": "Join aspiring coders, designers, and entrepreneurs for a high-energy day of problem-solving, collaboration, and tech mentorship. Showcase your skills, build solutions with impact, and connect with Africa's next generation of tech leaders."
   },
@@ -58,7 +58,7 @@
     "name": "Nairobi Art Market",
     "date": "2025-08-16",
     "location": "Nairobi, Kenya",
-    "category": "art",
+    "category": "Art",
     "description": "Experience the magic of creativity and collaboration.",
     "details": "Browse stunning works by local painters, sculptors, and photographers while engaging with Nairobi's vibrant creative community. Discover handmade crafts, live art demos, and interactive installations that celebrate artistic diversity and storytelling."
   },
@@ -67,7 +67,7 @@
     "name": "Dar Literary Fest",
     "date": "2025-08-19",
     "location": "Dar es Salaam, Tanzania",
-    "category": "literature",
+    "category": "Literature",
     "description": "Immerse yourself in the power of words, ideas, and cultural storytelling.",
     "details": "Connect with authors, poets, and readers through panel discussions, book launches, and spoken word sessions. Celebrate East African literature while exploring global narratives and voices that inspire change."
   },
@@ -76,7 +76,7 @@
     "name": "Kampala Coding Bootcamp",
     "date": "2025-07-29",
     "location": "Kampala, Uganda",
-    "category": "tech",
+    "category": "Tech",
     "description": "Dive into emerging trends and showcase your skills.",
     "details": "Join us for a one-of-a-kind experience featuring industry leaders in tech and community vibes."
   },
@@ -85,7 +85,7 @@
     "name": "Accra Film Week",
     "date": "2025-07-12",
     "location": "Accra, Ghana",
-    "category": "film",
+    "category": "Film",
      "description": "Celebrate the power of African cinema and the visual arts in Accra’s creative heart.",
     "details": "Experience a dynamic showcase of independent films, documentaries, and experimental shorts by African filmmakers. Engage in panel discussions, director Q&As, and open-air screenings that capture the cultural pulse of Ghana’s growing film scene."
   },
@@ -94,7 +94,7 @@
     "name": "Virtual Reality Meetup",
     "date": "2025-08-13",
     "location": "Johannesburg, South Africa",
-    "category": "tech",
+    "category": "Tech",
     "description": "Step into the future of immersive technology at Johannesburg's premier VR networking event.",
     "details": "Explore cutting-edge virtual reality demos, meet developers and designers shaping the VR landscape, and engage in tech talks covering gaming, education, and enterprise solutions. Whether you're a curious newcomer or an industry pro, this meetup offers a hands-on experience in the evolving world of extended reality."
   },
@@ -103,7 +103,7 @@
     "name": "Abidjan Taste Buds",
     "date": "2025-07-20",
     "location": "Abidjan, Côte d'Ivoire",
-    "category": "food",
+    "category": "Food",
     "description": "A culinary celebration showcasing the rich flavors and food culture of Côte d'Ivoire and beyond.",
     "details": "Savor street eats, gourmet bites, and authentic Ivorian dishes while mingling with chefs, food critics, and fellow enthusiasts. Discover tasting stations, live cooking demos, and fusion flavors that make this event a must for anyone with an adventurous palate."
   },
@@ -112,7 +112,7 @@
     "name": "Digital Health Conference",
     "date": "2025-08-25",
     "location": "Kigali, Rwanda",
-    "category": "health",
+    "category": "Health",
     "description": "Explore the intersection of technology and healthcare at Kigali’s leading digital health summit.",
     "details": "Join healthcare professionals, tech innovators, and policymakers to discuss advancements in telemedicine, AI diagnostics, data-driven public health, and mobile care solutions. Discover case studies, network with experts, and experience how digital tools are transforming health outcomes across Africa."
   },
@@ -121,7 +121,7 @@
     "name": "Makola Street Parade",
     "date": "2025-08-13",
     "location": "Accra, Ghana",
-    "category": "fashion",
+    "category": "Fashion",
     "description": "A vibrant showcase of street style, Afrocentric fashion, and creative expression.",
     "details": "Celebrate bold trends with runway pop-ups, local designers, and fashion-forward performances."
   },
@@ -130,7 +130,7 @@
     "name": "Women in Tech Expo",
     "date": "2025-07-23",
     "location": "Kigali, Rwanda",
-    "category": "tech",
+    "category": "Tech",
     "description": "Celebrate the impact of women shaping Africa’s tech future through innovation and leadership.",
     "details": "Attend keynote sessions, hands-on workshops, and networking mixers spotlighting female tech pioneers."
   },
@@ -139,7 +139,7 @@
     "name": "Africa Football Heroes",
     "date": "2025-08-17",
     "location": "Accra, Ghana",
-    "category": "sports",
+    "category": "Sports",
     "description": "Celebrate the legacy and future of African football through skill, story, and sportsmanship.",
     "details": "Meet legendary players, attend tactical workshops, and enjoy match screenings with vibrant fan communities."
   },
@@ -148,7 +148,7 @@
     "name": "Gaborone Green Summit",
     "date": "2025-07-30",
     "location": "Gaborone, Botswana",
-    "category": "climate",
+    "category": "Climate",
     "description": "Unite around climate innovation, sustainability, and green development in Southern Africa.",
     "details": "Explore climate tech, eco-policy talks, and local green solutions driving sustainable change."
   },
@@ -157,7 +157,7 @@
     "name": "AI & Robotics Showcase",
     "date": "2025-08-27",
     "location": "Rabat, Morocco",
-    "category": "tech",
+    "category": "Tech",
     "description": "Explore cutting-edge innovations in artificial intelligence and robotics shaping Africa's tech frontier.",
     "details": "Experience live demos, tech talks, and exhibits from leading engineers and startups in smart automation."
   },
@@ -166,7 +166,7 @@
     "name": "Pan-African Film Forum",
     "date": "2025-08-26",
     "location": "Yaoundé, Cameroon",
-    "category": "film",
+    "category": "Film",
     "description": "Celebrate African cinema and storytelling at a vibrant gathering of filmmakers and creatives.",
     "details": "Enjoy screenings, panels, and networking events spotlighting voices from across the continent."
   },
@@ -175,7 +175,7 @@
     "name": "Youth-In-Music Day",
     "date": "2025-07-28",
     "location": "Algiers, Algeria",
-    "category": "music",
+    "category": "Music",
     "description": "Celebrate young musical talent and the rhythm of African creativity in Algiers.",
     "details": "Enjoy live performances, DJ sets, and collaborative workshops showcasing the next generation of sound."
   }
