@@ -1,48 +1,96 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ofC45k0K)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=19915078)
-# afd-2023M-event-locator-Challenge
+# Event Locator
 
+Event Locator is a lightweight, mobile-friendly web app that helps users discover upcoming events across various cities in Africa. Users can search by city or event name, filter by date or category, and view detailed information for each event.
 
-### Project Scenario: Event Locator
+---
 
-#### Project Description
-Create an Event Locator web application that allows users to search for events happening in their city. 
-The application will display a list of events with details such as event name, date, location, 
-and a brief description. Users can filter events by date and category.
+## Preview
 
-#### Features
-1. **Home Page**: A landing page with a search bar and filters for date and category.
-2. **Event List**: A page displaying a list of events based on the search criteria.
-3. **Event Details**: A page showing detailed information about a selected event.
-4. **Responsive Design**: Ensure the application is mobile-friendly using Bootstrap.
+1. Homeage
+- ![Homepage](./screenshots/homepage.png)
 
-#### Tasks
+2. Event List - All
+- ![Event List - All](./screenshots/event-list-all.png)
 
-1. **Setup Project Structure**
-   - Create the project directory and subdirectories for HTML, CSS, and JavaScript files.
-   - Include Bootstrap via CDN in the project.
+3. Filtered Events (using "Tech" as the keyword)
+- ![Filtered Events using "Tech" keyword](./screenshots/filtered-events.png)
 
-2. **Home Page**
-   - Create `index.html` with a search bar and filters for date and category.
-   - Style the page using Bootstrap and custom CSS.
+4. Search criteria not matching any event(s)
+- ![Search criteria not matching any event(s)](./screenshots/no-match.png)
 
-3. **Event List Page**
-   - Create `events.html` to display a list of events.
-   - Use JavaScript to dynamically generate event cards based on search criteria.
-   - Style the event cards using Bootstrap.
+5. Details of a select event
+- ![Details of a select event](./screenshots/event-details.png)
 
-4. **Event Details Page**
-   - Create `event-details.html` to show detailed information about a selected event.
-   - Use JavaScript to populate the page with event details.
-   - Style the page using Bootstrap.
+---
 
-5. **JavaScript Functionality**
-   - Implement search functionality to filter events by date and category.
-   - Use JavaScript to fetch and display event data.
-   - Add event listeners for user interactions.
+## Features
 
-6. **Responsive Design**
-   - Ensure all pages are responsive using Bootstrap's grid system and utilities.
-   - Test the application on different screen sizes.
+- **Search Events** by city or event name
+- **Filter Events** by date and category (e.g. Tech, Music, Film)
+- **Dynamic Event Listing** pulled from a `JSON` file
+- **Event Detail View** with description, location, date, and category
+- **Responsive Design** (Bootstrap-based + Custom CSS) with mobile-friendly navigation
+- **Accessible Hamburger Menu** that toggles with click and closes when clicking outside
 
-#### [Resources](https://github.com/ALU-BSE/afd-2023m-week-8-challenge/blob/main/assignment_resources.md)
+---
+
+## Project Structure
+```bash
+event-locator-challenge-Darlington6/
+│
+├── css/
+│ └── styles.css
+|
+├── data/
+│ └── events.json
+|
+├── js/
+│ ├── details.js
+│ ├── hamburger.js
+│ └── search.js
+|
+├── screenshots
+|     ├── event-details.png
+|     ├── event-list-all.png
+|     ├── filtered-events.png
+|     ├── homepage.png
+|     └── no-match.png
+|
+├── assignment_resources.md
+├── event-details.html
+├── events.html
+├── index.html 
+│
+└── README.md
+```
+---
+
+## Setup Instructions
+
+> This is a static web project — no server or framework required.
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ALU-BSE/event-locator-challenge-Darlington6.git
+
+   cd event-locator
+   ```
+2. Open `index.html` in your browser.
+
+- You can also use Live Server in VS Code for better development experience.
+
+- Ensure all files maintain the relative structure (especially events.json and JS/CSS assets).
+
+---
+
+## Notes
+- All event data is sourced from data/events.json
+
+- Categories used include: Music, Tech, Food, Fashion, Sports, Film, Climate, Literature, Health
+
+- Footer and Navbar are reusable across pages
+
+- Accessibility: Semantic HTML elements with aria-label, aria-live, and keyboard-friendly navigation
+
+## Author
+Desmond Tunyinko
