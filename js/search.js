@@ -19,6 +19,11 @@ fetch("data/events.json")
       return matchesQuery && matchesDate && matchesCategory;
     });
 
+    // Display dynamic headings depending on whether the event is search of the user goes directly to the events page
+    const heading = document.getElementById("eventHeading");
+    const hasSearch = query || date || category;
+    heading.textContent = hasSearch ? "Events Matching Your Search" : "All Available Events";
+
     // Render
     if (filteredEvents.length === 0) {
       eventList.innerHTML = "<p class='text-center'>No events found.</p>";
@@ -27,13 +32,15 @@ fetch("data/events.json")
         const article = document.createElement("article");
         article.className = "col-md-4";
         article.innerHTML = `
-          <div class="card h-100 shadow">
-            <div class="card-body">
+          <div class="card h-100 shadow d-flex flex-column justify-content-between">
+            <div class="card-body d-flex flex-column">
               <h3 class="card-title">${event.name}</h3>
               <p><strong>Date:</strong> ${event.date}</p>
               <p><strong>Location:</strong> ${event.location}</p>
               <p>${event.description}</p>
-              <a href="event-details.html?id=${event.id}" class="btn btn-outline-primary mt-2" aria-label="View details for ${event.name}">View Details</a>
+              <div class="mt-auto text-center">
+                <a href="event-details.html?id=${event.id}" class="btn btn-outline-primary mt-2" aria-label="View details for ${event.name}">View Details</a>
+              </div>
             </div>
           </div>`;
         eventList.appendChild(article);
